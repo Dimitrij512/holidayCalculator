@@ -1,0 +1,14 @@
+group 'com.aviva.recruiting'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile('com.google.guava:guava:21.0')
+}
